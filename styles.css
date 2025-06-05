@@ -7,9 +7,13 @@
     font-family: "Roboto Light";
 }
 
+img{
+    width: 200px;
+}
+
 .header{
     background-color: #1F2937;
-    color: #F9FAF8;
+    color: #E5E7EB;
     font-size: 18px;
     display: flex;
     gap: 40px;
@@ -26,4 +30,30 @@
 
 .link1{
     margin-left: auto;
+}
+
+.introduction{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 50px 0;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 45%;
+}
+
+.intro_text h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.intro_text{
+    flex: 0 0 500px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
 }
