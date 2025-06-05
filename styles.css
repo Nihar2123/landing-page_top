@@ -89,3 +89,28 @@ img{
 .info-sub{
     flex: 0 0 200px;
 }
+
+.quote{
+    padding: 100px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.quote_container{
+    flex: 0 0 600px;
+}
+
+.quote_author{
+    padding-top: 20px;
+    margin-left: auto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: end;
+}
